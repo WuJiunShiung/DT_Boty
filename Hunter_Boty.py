@@ -4,7 +4,7 @@
 import discord
 import json
 
-with open("account.info", encoding="utf-8") as f:
+with open("account.info", encoding="utf8") as f:
     accountDICT = json.loads(f.read())
 
 class BotClient(discord.Client):
